@@ -24,6 +24,9 @@ h1 {
     border-radius: 10px;
     letter-spacing: 5px;
     text-shadow: 2px 2px 5px rgb(241, 192, 192);
+    width: max-content;
+    margin: auto;
+
 }
 
 h2 {
@@ -39,8 +42,9 @@ a:visited {
     color: green;
 }
 
-a:hover {
+#ab :hover {
     color: rgb(255, 105, 105);
+    font-size: 22px;
 }
 
 a:active {
@@ -70,13 +74,87 @@ td {
 tr:hover {
     background-color: coral;
 }
+
 img {
     float: none;
 }
+
 span.l {
-display: inline;
-width: 100px;
-height: 100px;
-border: 1px solid blue;
-background-color: aquamarine;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: aquamarine;
+}
+
+.down {
+    padding: 20px;
+}
+
+.down p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.down:hover p {
+    display: block;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #efbc6b;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.ll {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+border: 5px solid whitesmoke;
+    border-radius: 10px;
+
+
+}
+
+.ll>li {
+    float: left;
+
+}
+
+.ll>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ll>li>a:hover {
+    background-color: #111;
 }
