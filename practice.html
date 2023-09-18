@@ -15,10 +15,16 @@
                 <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-              </ul>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">link 1</a>
+                        <a href="#">link 2</a>
+                        <a href="#">link 3</a>
+                    </div>
+                </li>
+            </ul>
             <h1 style="font-weight: bolder; font-family: Georgia;">Bruno the dog </h1>
-            <h2>Introduction</h2>
+            <h2 class="heading">Introduction</h2>
             <p style="font-family:verdana;">A dog has sharp teeth so that it can eat flesh very easily, it has four
                 legs, two ears, two eyes, a tail,
                 a mouth, and a nose</p>
@@ -75,7 +81,46 @@
             <p>Tada here i am!!
             </p>
         </div>
-      
+        <div>
+            <div class="gallery">
+                <a target="_blank" href="./assets/dog1.jpg">
+                    <img src="./assets/dog1.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/dpg2.jpg">
+                    <img src="./assets/dpg2.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/dog3.jpg">
+                    <img src="./assets/dog3.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="./assets/dpg4.jpg">
+                    <img src="./assets/dpg4.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+        
+        <h2 id="qwerty">Input fields with borders</h2>
+
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+        </form>
+
+
     </div>
 
 </body>
