@@ -12,6 +12,13 @@ body {
   text-align: center;
 }
 
+.mask {
+  -webkit-mask-image: url(./assets/w3logo.png);
+  mask-image: url(./assets/w3logo.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
